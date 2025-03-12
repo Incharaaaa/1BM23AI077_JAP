@@ -1,0 +1,59 @@
+         			PROGRAM 1.a
+                        	OUTPUT
+
+
+//Welcome to the gym
+//Enter number of members:
+//3
+//Enter your name
+//INCHARA
+//Enter your age:
+//18
+//Enter your membership Status:
+//true
+//Enter your membership duration:
+//40
+//Name: INCHARA
+//Age: 18
+//Status: true
+//Gym fee is 40000.0 for 40 months
+//Enter your name
+//harhsa
+//Enter your age:
+//17
+//Enter your membership Status:
+//true
+//Enter your membership duration:
+//20
+//Name: harhsa
+//Age: 17
+//Status: true
+//Gym fee is 20000.0 for 20 months
+//Enter your name
+//nikki
+//Enter your age:
+//25
+//Enter your membership Status:
+//true
+//Enter your membership duration:
+//50
+//Name: nikki
+//Age: 25
+//Status: true
+//Gym fee is 50000.0 for 50 months
+//
+//Process finished with exit code 0
+
+ 				PROGRAM 1.b
+                        	OUTPUT
+
+//** ** ** **
+// ** ** ** **
+//** ** ** **
+// ** ** ** **
+//** ** ** **
+// ** ** ** **
+//** ** ** **
+// ** ** ** **
+//
+//Process finished with exit code 0
