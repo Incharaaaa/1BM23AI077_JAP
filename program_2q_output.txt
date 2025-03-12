@@ -1,0 +1,25 @@
+
+			PROGRAM 2
+			OUTPUT
+
+Autoboxing:
+The Boxed Integer is: 200
+The Boxed Character is: A
+The Boxed Byte is: 20
+The Boxed Short is: 300
+The Boxed Long is: 1000000
+The Boxed Float is: 10.7
+The Boxed Double is: 16.6
+The Boxed Boolean is: true
+
+Unboxing:
+The Unboxed Integer is: 200
+The Unboxed Character is: A
+The Unboxed Byte is: 20
+The Unboxed Short is: 300
+The Unboxed Long is: 1000000
+The Unboxed Float is: 10.7
+The Unboxed Double is: 16.6
+The Unboxed Boolean is: true
+
+Process finished with exit code 0
