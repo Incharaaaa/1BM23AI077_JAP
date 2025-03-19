@@ -1,0 +1,26 @@
+
+			PROGRAM 3(A)
+			OUTPUT
+
+***********STRING COMPARISON*********** 
+ ARE THE STRINGS EQUAL? :false
+ ***********INT COMPARISON*********** 
+ ARE THE STRINGS EQUAL? :-32
+ ***********STRING COPY***********: 
+ ORIGINAL STRING: Hello
+ COPIED STRING: Hello
+ ***********STRING CONCATENATION***********: 
+CONCATENATED STRING: Helloworld
+Process finished with exit code 0
+
+
+			PROGRAM 3(B)
+			OUTPUT
+
+CAPACITY OF StringBuffer object sb1 : 16
+CAPACITY OF StringBuffer object sb2 : 21
+Enter a string : 
+nikki
+Reversed string in uppercase : IKKIN
+
+Process finished with exit code 0
