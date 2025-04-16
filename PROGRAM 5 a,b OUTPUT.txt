@@ -1,0 +1,34 @@
+
+			PROGRAM 5(A)
+			OUTPUT
+
+
+All Products:
+Name: Phone, Price: 699.99, Category: Electronics
+Name: Backpack, Price: 39.99, Category: Accessories
+Name: Pen, Price: 1.99, Category: Stationery
+After Removing 'Backpack':
+Name: Phone, Price: 699.99, Category: Electronics
+Name: Pen, Price: 1.99, Category: Stationery
+
+Process finished with exit code 0
+
+			
+
+			PROGRAM 5(B)
+			OUTPUT
+
+Inventory:
+Name: Laptop, Price: 40000.0, Category: Electronics
+Name: T-shirt, Price: 550.0, Category: Clothing
+Name: Book, Price: 920.0, Category: Books
+Book has been removed from the inventory.
+Inventory:
+Name: Laptop, Price: 40000.0, Category: Electronics
+Name: T-shirt, Price: 550.0, Category: Clothing
+Laptop has been removed from the inventory.
+Inventory:
+Name: T-shirt, Price: 550.0, Category: Clothing
+Product with name Smartphone not found in inventory.
+
+Process finished with exit code 0
