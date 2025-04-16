@@ -1,0 +1,29 @@
+
+			PROGRAM 5(A)
+			OUTPUT
+
+
+All Products:
+Name: Phone, Price: 699.99, Category: Electronics
+Name: Backpack, Price: 39.99, Category: Accessories
+Name: Pen, Price: 1.99, Category: Stationery
+After Removing 'Backpack':
+Name: Phone, Price: 699.99, Category: Electronics
+Name: Pen, Price: 1.99, Category: Stationery
+
+Process finished with exit code 0
+
+			
+
+			PROGRAM 5(B)
+			OUTPUT
+
+ELements in the queue are:
+10
+20
+30
+null
+Dequeued element: 10
+Queue size: 3
+
+Process finished with exit code 0
