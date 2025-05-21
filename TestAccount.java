@@ -1,53 +1,58 @@
+
 class LessBalanceException extends Exception {
-    public LessBalanceException(double amount) {
-        super("Withdraw amount (" + amount + " Rs) is not possible.");
+    public LessBalanceException(Double amount) {
+        super("withdraw amount ( " + amount + "RS)is not valid");
     }
 }
 
-class Account {
-    double balance;
-    static final double MIN_BALANCE = 500;
+class Account{
+        double balance;
+        final static int MIN_BALANCE=500;
 
-    public Account() {
-        balance = MIN_BALANCE;
-    }
-
-    public void deposit(double amount) {
-        balance += amount;
-        System.out.println("Deposited " + amount + " Rs. New balance: " + balance + " Rs");
-    }
-
-    public void withdraw(double amount) throws LessBalanceException {
-        if (balance - amount < MIN_BALANCE) {
-            throw new LessBalanceException(amount);
+        public Account(){
+            balance=MIN_BALANCE;
         }
-        balance -= amount;
-        System.out.println("Withdrawn " + amount + " Rs. New balance: " + balance + " Rs");
-    }
 
-    public double getBalance() {
-        return balance;
-    }
+        public void deposit(double amount){
+            balance+=amount;
+            System.out.println("amount "+amount+"is deposited in your account");
+        }
+
+        public void Withdraw(double amount) throws Exception{
+            if(balance-amount<MIN_BALANCE){
+                throw new LessBalanceException(amount);
+            }
+            balance-=amount;
+            System.out.println("amount of rs"+amount+"is withdrawn from your account");
+
+        }
+        public double getBalance(){
+            return balance;
+        }
+
+
 }
+
 
 public class TestAccount {
-    public static void main(String[] args) {
-        Account account1 = new Account();
-        Account account2 = new Account();
+    public static void main(String[] args){
+        Account acc1=new Account();
+        Account acc2=new Account();
 
-        account1.deposit(1000);
-        account2.deposit(700);
+        acc1.deposit(1000);
+        acc2.deposit(900);
 
-        try {
-            account1.withdraw(1600);
-        } catch (LessBalanceException e) {
-            System.out.println("LessBalanceException: " + e.getMessage());
+        acc1.getBalance();
+        acc2.getBalance();
+        try{
+            acc1.Withdraw(1600);
+        }catch(Exception e){
+            System.out.println("less balance exception"+e.getMessage());
         }
-
-        try {
-            account2.withdraw(200);
-        } catch (LessBalanceException e) {
-            System.out.println("LessBalanceException: " + e.getMessage());
+        try{
+            acc2.Withdraw(300);
+        }catch(Exception e){
+            System.out.println("less balance exception"+e.getMessage());
         }
     }
 }
